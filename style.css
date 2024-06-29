@@ -40,6 +40,7 @@ html {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding: 40px 0;
 }
 .header {
   position: relative;
@@ -333,7 +334,7 @@ html {
   height: 20px;
   background-color: #f2f3f3;
   border-radius: 20px;
-  margin-bottom: 65px;
+  margin-bottom: 25px;
 }
 .sidebar-fill {
   height: 100%;
