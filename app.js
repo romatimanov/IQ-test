@@ -248,7 +248,7 @@ document.addEventListener("DOMContentLoaded", () => {
       { label: "1", value: "1" },
       { label: "2", value: "2" },
       { label: "3", value: "3" },
-      { label: "3", value: "4" },
+      { label: "4", value: "4" },
     ];
 
     createTestImage(
@@ -523,7 +523,9 @@ document.addEventListener("DOMContentLoaded", () => {
     btn.disabled = true;
 
     function handleButtonClick(selectedButton) {
-      const buttons = Array.from(buttonContainer.querySelectorAll(".button"));
+      const buttons = Array.from(
+        buttonContainer.querySelectorAll(".button-iq")
+      );
 
       buttons.forEach((button) => {
         button.classList.remove("selected");
