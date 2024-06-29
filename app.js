@@ -372,7 +372,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     const timerText = document.createElement("p");
     timerText.className = "test-result__timer-text";
-    timerText.textContent = "Звоните скорее, запись доступна всего 5 минут";
+    timerText.textContent = "Звоните скорее, запись доступна всего 10 минут";
 
     textBlock.append(blockText);
 
